@@ -1,9 +1,9 @@
-Denne applikasjonen lar deg å logge inn til melding side hvor du kan motta meldinger fra andre brukere eller
-sende meldinger til andre brukere som finnes i DB "Bruker" tabellen.<br>
+Denne applikasjonen lar deg å logge inn til meldingerside hvor du kan motta meldinger fra andre brukere eller
+sende meldinger til andre brukere som finnes i DB "Bruker" tabellen.
 
 Loginn form laget veldig simple, uten noe Authontication sjekk.
-Eneste sjekk ved log inn er på brukernavn, hvis brukernavn finnes i tabellen Bruker da han logger seg inn og kan se alle meldingene som ble sendt til bruker,
-hvis brukeren finnes ikke i Bruker tabellen, da opprettes en ny bruker.<br>
+Eneste sjekk ved logge inn er på brukernavn, hvis brukernavn finnes i tabellen "Bruker" da han logger seg inn og kan se alle meldingene som ble sendt til bruker,
+hvis brukeren finnes ikke i "Bruker" tabellen, da opprettes en ny bruker.
 
 ## Design pattern 
 Model View Controller (MVC)
